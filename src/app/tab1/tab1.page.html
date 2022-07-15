@@ -1,17 +1,8 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <h1>Beatiful charts</h1>
+  <div class="box1">
+    <apx-chart [chart]="options.chart" [series]="options.series" class="grafico"></apx-chart>
+  </div>
+
 </ion-content>
