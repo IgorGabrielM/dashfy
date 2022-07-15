@@ -1,0 +1,7 @@
+{
+  "name": "dashfy",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
